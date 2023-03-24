@@ -1,0 +1,61 @@
+//COLORS
+$dark-green: #125C13;
+$green: #3E7C17;
+$gray: #E8E1D9;
+
+:root {
+    font-size: 62.5%;
+}
+
+.app {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    font-size: 1.6rem;
+    background-color: $dark-green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__logo { 
+        max-width: 14rem;
+    }
+
+    &__form {
+        margin-top: 2rem;
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 1rem;
+
+        &__label {
+            display: block;
+            margin-bottom: 0.5rem;
+            
+        }
+
+        &__input {
+            display: block;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+
+        }
+
+        &__btn {
+            display: block;
+            width: 100%;
+            padding: 0.9rem;
+            border: none;
+            background-color: #3E7C17;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: #fff;
+            margin-top: 3rem;
+        }
+
+        &__btn:hover {
+            background-color: #125C13;
+        }
+
+    }
+
+
+}
